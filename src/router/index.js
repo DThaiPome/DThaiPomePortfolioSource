@@ -46,8 +46,13 @@ const router = new VueRouter({
 });
 
 router.afterEach((to) => {
+  updateTitle(to.name);
   updateHeaderVisibility(to.name);
 });
+
+function updateTitle(toName) {
+  document.title = `${toName} - Ryan Gehrlein`
+}
 
 function updateHeaderVisibility(toName) {
   const pagesWithHeaderTitle = [

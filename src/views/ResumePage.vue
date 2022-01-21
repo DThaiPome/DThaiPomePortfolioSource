@@ -3,7 +3,7 @@
         <div id="resume-link">
             <a 
                 v-text="'Click here to view my resume'"
-                href="https://drive.google.com/file/d/13RWaQL8afmtgkIgX8pkKLLIhdiYmw209/view?usp=sharing" />
+                href="https://drive.google.com/file/d/13RWaQL8afmtgkIgX8pkKLLIhdiYmw209/view?usp=sharing" target="_blank" />
         </div>
     </common-body>
 </template>
