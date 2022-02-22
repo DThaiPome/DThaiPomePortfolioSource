@@ -12,11 +12,12 @@
         max-width: 1200px;
         margin: auto;
         padding: 10pt;
-        .infinite-background(
-            url('../assets/img/backgrounds/subtle background-small.png'),
-            url('../assets/img/backgrounds/subtle background-smaller.png'),
-            url('../assets/img/backgrounds/subtle background.png'),
-            0 0, -2pt, -1pt);
+        // .infinite-background(
+        //     url('../assets/img/backgrounds/subtle background-small.png'),
+        //     url('../assets/img/backgrounds/subtle background-smaller.png'),
+        //     url('../assets/img/backgrounds/subtle background.png'),
+        //     0 0, -2pt, -1pt);
+        background: black;
         border: 4pt solid @BORDER-COLOR;
         border-radius: 40pt;
 

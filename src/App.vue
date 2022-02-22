@@ -62,11 +62,16 @@ export default {
 @import './assets/style/animations';
 
 body {
-  .infinite-background(
-    url('./assets/img/backgrounds/trippy background-small.png'),
-    url('./assets/img/backgrounds/trippy background-smaller.png'),
-    url('./assets/img/backgrounds/trippy background.png'),
-    0 0, 1pt, 1pt);
+  // .infinite-background(
+  //   url('./assets/img/backgrounds/trippy background-small.png'),
+  //   url('./assets/img/backgrounds/trippy background-smaller.png'),
+  //   url('./assets/img/backgrounds/trippy background.png'),
+  //   0 0, 1pt, 1pt);
+  background-image: url('./assets/img/backgrounds/trippy background-small.png'), 
+    url('./assets/img/backgrounds/trippy background-smaller.png'), 
+    url('./assets/img/backgrounds/trippy background.png');
+    background-blend-mode: color;
+    background-attachment: fixed;
   color: @TEXT-COLOR;
   margin: 0pt;
 

@@ -71,7 +71,7 @@ const projects = [
         index: 4,
         blurb: 'Self-driven 3D Game in UE4',
         bodyComp: 'c',
-        imageCaption: '<a href="https://github.com/DThaiPome/FillBall target="_blank"">Go to GitHub repository</a>',
+        imageCaption: '<a href="https://github.com/DThaiPome/FillBall" target="_blank">Go to GitHub repository</a>',
         summary: '<b>Fillball</b> is a small, self-driven game project developed in Unreal Engine 4. The player controls a ball that can change between 4 colors by collecting small color pickups, passing through colored hoops, or pressing colored buttons. Changing the ball\'s color changes which paths are solid and passable; the player must strategically manage their current color, particularly if they wish to collect every color pickup. Through this project, I am learning how to program game behaviour and systems using C++, and I am familiarizing myself with the many features of UE4. Right now, 3 levels are planned for this project. ',
         responsibilities: [
             'Built player controls and other game components using Unreal\'s Blueprint system.',
@@ -94,7 +94,7 @@ const projects = [
         index: 6,
         blurb: 'GMTK Game Jam 2020',
         bodyComp: 'b',
-        imageCaption: '<a href="https://kimin.itch.io/narcoleptic-nummies target="_blank"">Play the Game</a>',
+        imageCaption: '<a href="https://kimin.itch.io/narcoleptic-nummies" target="_blank">Play the Game</a>',
         summary: [
              'Narcoleptic Nummies is a video game project made during Game Maker Tool Kit\'s Game Jam held online over the summer of 2020. The player jumps through many levels, and every ten or so seconds the level\'s layout and environment switch between being "awake" and "asleep". In addition to producing original music and sound effects, I designed and implemented the dynamic sound system that would switch between two parallel "waking" and "sleeping" versions of one original level soundtrack. I accomplished this by using Unity\'s flexible object hierarchy system alongside principles of object-oriented design, in order to make code that could be easily utilized by my teammates. The entire core functionality of this music system was wrapped under a single method, allowing for seamless integration into the game\'s core code.',
              '<br><br>',
