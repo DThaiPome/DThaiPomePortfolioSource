@@ -5,13 +5,17 @@
                  v-if="project.bodyImgSrcB"
                  :src="project.bodyImgSrcB" 
                  v-fix-footer-on-load />
-            <h3> Accomplishments </h3>
-            <common-unordered-list :items="project.responsibilities" 
-                       :classes="'description-text'" />
+            <template v-if="(typeof project.responsibilities !== 'undefined')">
+                <h3> Accomplishments </h3>
+                <common-unordered-list :items="project.responsibilities" 
+                        :classes="'description-text'" />
+            </template>
             <br>
-            <h3> Technology Used </h3>
-            <common-unordered-list :items="project.tech" 
-                       :classes="'description-text'" />
+            <template v-if="(typeof project.tech !== 'undefined')">
+                <h3> Technology Used </h3>
+                <common-unordered-list :items="project.tech" 
+                        :classes="'description-text'" />
+            </template>
         </div>
         <div class="description-panel">
             <h3> Summary </h3>
@@ -38,8 +42,13 @@ export default {
     props: {
         project: {
             type: Object,
-            default: () => { return {}; }
+            default: () => { 
+                return {}; 
+            }
         }
+    },
+    beforeMount() {
+        console.log(this.project.tech !== []);
     }
 }
 </script>

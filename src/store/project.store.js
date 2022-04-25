@@ -207,6 +207,21 @@ const projects = [
         bodyImgSrcB: require('@/assets/img/projects/Cupcat-1.gif'),
         bodyImgSrcA: require('@/assets/img/projects/Cupcat-2.png')
     },
+    {
+        title: 'To The Abyss',
+        imgSrc: require('@/assets/img/projects/abyss-main-menu.png'),
+        id: 'crab-game',
+        featured: false,
+        index: -1,
+        blurb: 'Game Concept Development Project',
+        bodyComp: 'b',
+        imageCaption: '<a href="" target="_blank">Play the game here! (Link pending)</a>',
+        summary: [
+            'You are a crab. Your beloved crab associate has been whisked away by the ocean. You must go on a journey to travel to the bottom of the ocean to rescue them, but as you travel further down, the darkness of the waters closes in. How far are you willing to go for your beloved crab associate?'
+        ].join(' '),
+        bodyImgSrcB: require('@/assets/img/projects/abyss-ss.png'),
+        bodyImgSrcA: require('@/assets/img/projects/abyss-seal.png')
+    },
 ];
 
 const state = {
