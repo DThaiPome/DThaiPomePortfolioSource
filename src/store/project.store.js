@@ -215,7 +215,7 @@ const projects = [
         index: -1,
         blurb: 'Game Concept Development Project',
         bodyComp: 'b',
-        imageCaption: '<a href="https://dthaipome.itch.io/to-the-abyss" target="_blank">Play the game here! (Link pending)</a>',
+        imageCaption: '<a href="https://dthaipome.itch.io/to-the-abyss" target="_blank">Play the game here!</a>',
         summary: [
             'You are a crab. Your beloved crab associate has been whisked away by the ocean. You must go on a journey to travel to the bottom of the ocean to rescue them, but as you travel further down, the darkness of the waters closes in. How far are you willing to go for your beloved crab associate?'
         ].join(' '),
